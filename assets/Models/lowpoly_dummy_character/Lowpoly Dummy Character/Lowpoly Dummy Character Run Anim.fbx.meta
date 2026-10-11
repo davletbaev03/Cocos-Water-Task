@@ -1,0 +1,194 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "14a362db-d385-461c-ba25-906ad1282e87",
+  "files": [
+    "__original-animation-0.bin",
+    "__original-animation-1.bin"
+  ],
+  "subMetas": {
+    "fd4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@fd4a2",
+      "displayName": "",
+      "id": "fd4a2",
+      "name": "Cube.004.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 720
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5283": {
+      "importer": "gltf-animation",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@e5283",
+      "displayName": "",
+      "id": "e5283",
+      "name": "Dummy Rig|Dummy RigAction.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.4166666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "c378f": {
+      "importer": "gltf-animation",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@c378f",
+      "displayName": "",
+      "id": "c378f",
+      "name": "Dummy Rig|Dummy RigAction.001.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 9.958333015441895
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 29
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4b39": {
+      "importer": "gltf-material",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@f4b39",
+      "displayName": "",
+      "id": "f4b39",
+      "name": "Body.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0411": {
+      "importer": "gltf-scene",
+      "uuid": "14a362db-d385-461c-ba25-906ad1282e87@a0411",
+      "displayName": "",
+      "id": "a0411",
+      "name": "Lowpoly Dummy Character Run Anim.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Dummy Rig|Dummy RigAction",
+        "duration": 1.4166666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dummy Rig|Dummy RigAction",
+            "from": 0,
+            "to": 1.4166666269302368,
+            "wrapMode": 2,
+            "previousId": "e5283"
+          }
+        ]
+      },
+      {
+        "name": "Dummy Rig|Dummy RigAction.001",
+        "duration": 9.958333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Dummy Rig|Dummy RigAction.001",
+            "from": 0,
+            "to": 9.958333015441895,
+            "wrapMode": 2,
+            "previousId": "c378f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "14a362db-d385-461c-ba25-906ad1282e87@fd4a2"
+      ],
+      "skeletons": [
+        "14a362db-d385-461c-ba25-906ad1282e87@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "14a362db-d385-461c-ba25-906ad1282e87@f4b39"
+      ],
+      "scenes": [
+        "14a362db-d385-461c-ba25-906ad1282e87@a0411"
+      ]
+    }
+  }
+}
